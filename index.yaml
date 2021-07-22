@@ -17,6 +17,33 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/common-0.1.13/common-0.1.13.tgz
     version: 0.1.13
+  mariadb:
+  - apiVersion: v2
+    appVersion: 110.4.20
+    created: "2021-07-22T16:43:55.648909167Z"
+    dependencies:
+    - name: common
+      repository: https://krakazyabra.github.io/microservices/
+      version: ~0.1.13
+    description: The open source relational database
+    digest: 7e5becae16d0396d2708f339f2adb75d6ec664462c14509dc9782255c2c40400
+    home: https://github.com/krakazyabra/microservices/tree/main/charts/mariadb
+    icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/mariadb-icon.png
+    keywords:
+    - db
+    - database
+    - mariadb
+    maintainers:
+    - email: pronin.egor@gmail.com
+      name: krakazyabra
+    name: mariadb
+    sources:
+    - https://mariadb.org/
+    - https://github.com/linuxserver/docker-mariadb
+    type: application
+    urls:
+    - https://github.com/krakazyabra/microservices/releases/download/mariadb-1.0.5/mariadb-1.0.5.tgz
+    version: 1.0.5
   postgres:
   - apiVersion: v2
     appVersion: "13.3"
@@ -44,4 +71,4 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/postgres-0.1.0/postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-22T16:42:55.692667378Z"
+generated: "2021-07-22T16:43:55.648917368Z"
