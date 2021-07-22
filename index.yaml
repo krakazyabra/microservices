@@ -17,4 +17,31 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/common-0.1.13/common-0.1.13.tgz
     version: 0.1.13
-generated: "2021-07-22T16:40:25.389991414Z"
+  postgres:
+  - apiVersion: v2
+    appVersion: "13.3"
+    created: "2021-07-22T16:42:55.692662978Z"
+    dependencies:
+    - name: common
+      repository: https://krakazyabra.github.io/microservices/
+      version: ~0.1.8
+    description: The World's Most Advanced Open Source Relational Database
+    digest: f348a59b7a30a2803fc4f1ed2c67185ae260437aad96770dfb66db0892be6ee9
+    home: https://github.com/krakazyabra/microservices/tree/main/charts/postgres
+    icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png
+    keywords:
+    - postgres
+    - database
+    - relational
+    maintainers:
+    - email: pronin.egor@gmail.com
+      name: krakazyabra
+    name: postgres
+    sources:
+    - https://www.postgresql.org/
+    - https://github.com/docker-library/postgres
+    type: application
+    urls:
+    - https://github.com/krakazyabra/microservices/releases/download/postgres-0.1.0/postgres-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-22T16:42:55.692667378Z"
