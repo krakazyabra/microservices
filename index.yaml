@@ -44,6 +44,32 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/mariadb-1.0.5/mariadb-1.0.5.tgz
     version: 1.0.5
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2021-07-23T13:28:00.249840817Z"
+    dependencies:
+    - name: common
+      repository: https://krakazyabra.github.io/microservices/
+      version: ~0.1.13
+    description: Nginx Helm chart for Kubernetes
+    digest: 0510a916baf54c7960f9293a394a529ade2b4fe708f3b399d48953e9ef51e415
+    home: https://github.com/krakazyabra/microservices/tree/main/charts/nginx
+    icon: https://img.icons8.com/color/452/nginx.png
+    keywords:
+    - nginx
+    - webserver
+    maintainers:
+    - email: pronin.egor@gmail.com
+      name: krakazyabra
+    name: nginx
+    sources:
+    - https://krakazyabra.github.io/microservices
+    - https://hub.docker.com/_/nginx/
+    type: application
+    urls:
+    - https://github.com/krakazyabra/microservices/releases/download/nginx-1.0.0/nginx-1.0.0.tgz
+    version: 1.0.0
   postgres:
   - apiVersion: v2
     appVersion: "13.3"
@@ -71,4 +97,4 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/postgres-0.1.0/postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-22T16:43:55.648917368Z"
+generated: "2021-07-23T13:28:00.249846717Z"
