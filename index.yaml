@@ -1,5 +1,31 @@
 apiVersion: v1
 entries:
+  cadvisor:
+  - apiVersion: v2
+    appVersion: v0.40.0
+    created: "2021-07-28T11:44:13.492787378Z"
+    dependencies:
+    - name: common
+      repository: https://krakazyabra.github.io/microservices/
+      version: ~0.1.13
+    description: Cadvisor Helm chart for Kubernetes
+    digest: 21e94d08e17ee7709ad9e4f276d8a0162ccc3215e4ebadd75eb88f997aa7e44f
+    home: https://github.com/krakazyabra/microservices/tree/main/charts/cadvisor
+    keywords:
+    - prometheus
+    - cadvisor
+    - monitoring
+    maintainers:
+    - email: pronin.egor@gmail.com
+      name: krakazyabra
+    name: cadvisor
+    sources:
+    - https://github.com/google/cadvisor
+    - https://github.com/krakazyabra/microservices
+    type: application
+    urls:
+    - https://github.com/krakazyabra/microservices/releases/download/cadvisor-1.0.0/cadvisor-1.0.0.tgz
+    version: 1.0.0
   common:
   - apiVersion: v2
     created: "2021-07-22T16:40:25.389983814Z"
@@ -97,4 +123,4 @@ entries:
     urls:
     - https://github.com/krakazyabra/microservices/releases/download/postgres-0.1.0/postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-23T13:28:00.249846717Z"
+generated: "2021-07-28T11:44:13.492792678Z"
